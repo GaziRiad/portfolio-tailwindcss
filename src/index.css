@@ -9,8 +9,17 @@ body {
 }
 
 #hero {
-  background-image: url("../public/imags/liquid-cheese.svg");
+  background-image: url("../public/imags/Circuit\ Primary.svg");
+
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 90%;
+  background-size: 1100px;
+
+  background-position: 0% 100%;
+}
+
+@media (max-width: 53em) {
+  #hero {
+    background-size: 860px;
+    background-position: 0% 108%;
+  }
 }

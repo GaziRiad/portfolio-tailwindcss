@@ -45,13 +45,13 @@ function Header() {
 function Hero() {
   return (
     <>
-      <section id="hero" className="mb-20">
-        <div className="container relative flex flex-col justify-center mx-auto px-8 h-screen">
+      <section id="hero" className="mb-20 bg-indigo-700">
+        <div className="container relative flex flex-col justify-center mx-auto px-8 h-screen ">
           <h2 className="text-3xl leading-normal mb-8 linhe font-semibold uppercase text-center text-white  md:text-4xl">
             HEY, MY NAME IS RIAD HALLOUCH
           </h2>
 
-          <p className="text-white text-lg text-center text-indigo-20 mb-14 relative">
+          <p className="text-white text-md text-center text-indigo-20 mb-14 relative sm:text-xl opacity-90">
             Hi There, I’m Riad and i am a Front-End Web Developer
           </p>
 
@@ -71,7 +71,7 @@ function Hero() {
 
 function About() {
   return (
-    <section id="About" className="bg-white">
+    <section id="About" className="">
       <div className="container mx-auto">
         <div className="relative mb-12">
           <h2 className="text-center text-3xl font-semibold text-zinc-800 uppercase md:text-4xl">
